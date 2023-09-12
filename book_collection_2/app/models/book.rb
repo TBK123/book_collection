@@ -4,3 +4,4 @@ class Book < ApplicationRecord
   validates :price, numericality: true, presence: true
   validates :published_date, presence: true
 end
+
